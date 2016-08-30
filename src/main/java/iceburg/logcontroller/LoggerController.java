@@ -1,11 +1,11 @@
-package edu.depaul.iceburg.logcontroller;
+package iceburg.logcontroller;
 
 
-import edu.depaul.iceburg.events.Event;
-import edu.depaul.iceburg.events.EventListener;
-import edu.depaul.iceburg.events.EventType;
+import iceburg.events.Event;
+import iceburg.events.EventListener;
+import iceburg.events.EventType;
 
-import edu.depaul.iceburg.events.rabbitmq.RabbitMQEventHub;
+import iceburg.events.rabbitmq.RabbitMQEventHub;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
